@@ -20,7 +20,7 @@ This repository contains the source code for FxSound Audio Enhancer driver which
 ### Build FxSound from Visual Studio
 * Open [fxsound-driver/fxvad/fxvad.sln](https://github.com/fxsound2/fxsound-driver/blob/main/fxvad/fxvad.sln) in Visual Studio
 * Build the required configuration
-* The driver package files will be in fxvad/<Platform>/<Configration>/package directory
+* The driver package files will be in fxvad/[Platform]/[Configration]/package directory
 
 ## How to contribute
 We welcome anyone who wants to contribute to this project. For more details on how to contribute, follow [this contributing guideline](./CONTRIBUTING.md).
