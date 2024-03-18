@@ -1,0 +1,45 @@
+/*++
+
+Copyright (c) 1997-2000  Microsoft Corporation All Rights Reserved
+
+Module Name:
+
+    msvad.rc
+
+Abstract:
+
+
+--*/
+
+#include <windows.h>
+
+#include <ntverp.h>
+
+#define VER_FILETYPE                VFT_DRV
+#define VER_FILESUBTYPE             VFT2_DRV_SOUND
+#define VER_FILEDESCRIPTION_STR     "FxSound Audio Enhancer"
+
+#define VER_INTERNALNAME_STR        "fxvad.sys"
+#define VER_ORIGINALFILENAME_STR    "fxvad.sys"
+
+#define VER_LEGALCOPYRIGHT_YEARS    "2021"
+#define VER_LEGALCOPYRIGHT_STR	    "Copyright (C) FxSound LLC"
+
+#define VER_FILEVERSION             14,01,00,0000
+#define VER_FILEVERSION_STR         "14.1.0.0"
+
+#undef VER_PRODUCTVERSION
+#define VER_PRODUCTVERSION          VER_FILEVERSION
+
+#undef VER_PRODUCTVERSION_STR
+#define VER_PRODUCTVERSION_STR      VER_FILEVERSION_STR
+
+#undef VER_PRODUCTNAME_STR
+#define VER_PRODUCTNAME_STR         "FxSound"
+
+101 ICON "fxsound.ico"
+
+#include "common.ver"
+
+
+
