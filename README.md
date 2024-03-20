@@ -1,6 +1,6 @@
 # FxSound
 
-FxSound is a digital audio program built for Windows PC's. The background processing, built on the highest-fidelity audio engine possible, acts as a sort of digital soundcard for your system. This means that your signals will have the cleanest possible passthrough when FxSound is active. There are active effects for shaping and boosting your sound's volume, timbre, and equalization included on top of this clean processing, allowing you to customize and enhance your sound.
+FxSound is a digital audio program built for Windows PC's. The background processing, built on a high-fidelity audio engine, acts as a sort of digital soundcard for your system. This means that your signals will have the clean passthrough when FxSound is active. There are active effects for shaping and boosting your sound's volume, timbre, and equalization included on top of this clean processing, allowing you to customize and enhance your sound.
 
 This repository contains the source code for FxSound Audio Enhancer driver which is a Windows virtual audio driver based on https://github.com/uri247/wdk81/tree/master/Microsoft%20Virtual%20Audio%20Device%20Driver%20Sample
 
