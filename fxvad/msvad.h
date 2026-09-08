@@ -58,7 +58,7 @@ DEFINE_GUIDSTRUCT("303B166E-EFFC-4FD4-979A-B464941E79AE", PID_MSVAD);
 #define CHAN_MASTER                 (-1)
 
 // Dma Settings.
-#define DMA_BUFFER_SIZE             0x16000
+#define DMA_BUFFER_SIZE             0x58000
 
 #define KSPROPERTY_TYPE_ALL         KSPROPERTY_TYPE_BASICSUPPORT | \
                                     KSPROPERTY_TYPE_GET | \
