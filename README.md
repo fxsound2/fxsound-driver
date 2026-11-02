@@ -26,6 +26,6 @@ This repository contains the source code for FxSound Audio Enhancer driver which
 We welcome anyone who wants to contribute to this project. For more details on how to contribute, follow [this contributing guideline](./CONTRIBUTING.md).
 
 ## License
-[GPL v3.0](https://github.com/fxsound2/fxsound-driver/blob/main/LICENSE)
+[AGPL v3.0](https://github.com/fxsound2/fxsound-driver/blob/main/LICENSE)
 
 [MICROSOFT LIMITED PUBLIC LICENSE version 1.1](https://github.com/fxsound2/fxsound-driver/blob/dev/license.rtf)
