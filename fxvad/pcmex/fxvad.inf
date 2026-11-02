@@ -7,19 +7,23 @@ Signature="$CHICAGO$"
 Class=MEDIA
 Provider=%FXMN%
 ClassGUID={4d36e96c-e325-11ce-bfc1-08002be10318}
-DriverVer = 02/11/2021, 14.0.0.0
+DriverVer = 11/02/2026,14.1.0.0
 CatalogFile.NTx86=fxvadNTx86.cat
 CatalogFile.NTAMD64=fxvadNTAMD64.cat
+CatalogFile.NTARM64=fxvadNTARM64.cat  ; Added for ARM64 support
 PnpLockDown=1
 
 [Manufacturer]
-%MfgName%=DFX,NTamd64,NTx86
+%MfgName%=DFX,NTamd64,NTx86,NTarm64
 
 [DFX.NTx86]
 %DFX_Device.DeviceDesc%=DFX_Device,Root\%DEV_NAME%,*%DEV_NAME%
 
 [DFX.NTamd64]
 %DFX_Device.DeviceDesc%=DFX_Device,Root\%DEV_NAME%,*%DEV_NAME%
+
+[DFX.NTarm64]  ; Added for ARM64 support
+%DFX_Device.DeviceDesc%=DFX_Device,Root\%DEV_NAME%
 
 ;-----------------------------------------------------------------------------
 ;
