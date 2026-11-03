@@ -26,7 +26,7 @@ Abstract:
 #define MIN_BITS_PER_SAMPLE_PCM     24      // Min Bits Per Sample
 #define MAX_BITS_PER_SAMPLE_PCM     24      // Max Bits Per Sample
 #define MIN_SAMPLE_RATE             44100   // Min Sample Rate
-#define MAX_SAMPLE_RATE             48000   // Max Sample Rate
+#define MAX_SAMPLE_RATE             192000  // Max Sample Rate
 
 // Wave pins
 enum 
